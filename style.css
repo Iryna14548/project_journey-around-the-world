@@ -1,0 +1,247 @@
+body {
+    margin: 0;
+}
+
+.header__wrapper {
+    background-color: rgb(73, 158, 228);
+}
+
+.navigation__wrapper {
+    display: flex;
+    max-width: 1280px;
+    margin: auto;
+    align-items: center;
+    padding: 20px 15px;
+}
+
+.navigation__logo {
+    display: flex;
+
+}
+
+.navigation__list {
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+    list-style: none;
+    gap: 35px;
+    padding: 0;
+}
+
+.navigation__list-item {
+    color: white;
+    line-height: 24px;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    gap: 30px;
+    text-decoration: none;
+}
+
+.conteiner__header {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 15px 15px 80px 15px;
+}
+
+.conteiner__header-item {
+    margin: 15px;
+    max-width: 780px;
+}
+
+h1 {
+    font-size: 100px;
+    color: white;
+    font-family: "Playfair Display", Georgia, serif;
+    font-weight: 700;
+    line-height: 85px;
+    margin: 30px 0;
+}
+
+.span__world {
+    color: rgb(250, 248, 139);
+}
+
+.header__paragraph {
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+    font-family: "Playfair Display", Georgia, serif;
+}
+
+.header__button {
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    border: 1px solid white;
+    padding: 15px 30px;
+    background-color: rgb(73, 158, 228);
+    font-family: "Open Sans", Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.header__button:hover {
+    background-color: rgb(115, 180, 233);
+}
+
+.conteiner__images {
+    display: flex;
+    max-width: 1280px;
+    flex-wrap: wrap;
+    margin: -60px auto;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+.conteiner__images li {
+    list-style: none;
+}
+
+ul.conteiner__images {
+    padding: 0 15px;
+    justify-content: center;
+}
+ul.conteiner__images img {
+    height: auto;
+    width: 100%;
+}
+
+.conteiner__quote-wrapper {
+    background-color: #ed7b2d;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.conteiner__quote-wrapper-item-list {
+    margin: 0 auto;
+    max-width: 1280px;
+    text-align: center;
+}
+
+.quoye__text {
+    font-family: "Playfair Display", Georgia, serif;
+    color: white;
+    font-size: 24px;
+    line-height: 1.4;
+    padding: 15px;
+    margin: 0;
+}
+
+.autor {
+    color: rgb(9, 179, 179);
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    padding: 15px;
+}
+.article__wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.header__title {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 51px;
+    color: rgb(60, 60, 216);
+    text-align: center;
+    font-family: "Playfair Display", Georgia, serif;
+    margin: 15px 20px;
+}
+
+.header__title--margin-top {
+    margin-top: 70px;
+}
+
+.paragraph {
+    color: rgb(63, 64, 66);
+    padding: 15px 15px;
+    margin: 0;
+}
+
+.contact__me__wrapper {
+    background-color: rgb(36, 169, 202);
+}
+.contact__me__wrapper-items {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.contact__me__wrapper h2 {
+    color: white;
+    padding-top: 70px;
+}
+
+.paragraph__footer {
+    font-size: 16px;
+    color: white;
+    line-height: 23px;
+    font-family: "Playfair Display", Georgia, serif;
+    padding: 15px;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input__style {
+    background-color: rgb(207, 253, 253);
+    border: none;
+    cursor: text;
+    font-size: 16px;
+    color: rgb(99, 92, 92);
+    padding: 15px 50px 15px 10px;
+    margin: 10px;
+    width: calc(50% - 80px);
+}
+.input__style-textarea {
+    width: 100%;
+}
+
+.button__footer {
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    border: 1px solid white;
+    padding: 15px 30px;
+    background-color: rgb(36, 169, 202);
+    font-family: "Open Sans", Helvetica, sans-serif;
+    cursor: pointer;
+    margin: 15px 10px 30px;
+}
+
+.button__footer:hover {
+    background-color: rgb(46, 183, 218);
+}
+
+.footer__paragraph-wrapper {
+    background-color: #535252;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__paragraph {
+    max-width: 1280px;
+    color: white;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 0px;
+        color: white;
+        font-family: "Playfair Display", Georgia, serif;
+        font-weight: 700;
+        line-height: 65px;
+        margin: 15px 0;
+    }
+}

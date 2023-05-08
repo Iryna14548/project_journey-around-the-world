@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="fonts.css" />
+    </head>
+    <body>
+        <header class="header__wrapper">
+            <nav class="navigation__wrapper">
+                <img
+                    src="https://content.codecademy.com/programs/ui-design/journey_around_the_world/photo-logo.svg"
+                    alt="logo"
+                    class="navigation__logo"
+                />
+                <ul class="navigation__list">
+                    <li><a href="#" class="navigation__list-item">About</a></li>
+                    <li><a href="#" class="navigation__list-item">Contact</a></li>
+                </ul>
+            </nav>
+            <section>
+                <div class="conteiner__header">
+                    <div class="conteiner__header-item">
+                        <h1>Journey Around the <span class="span__world">World</span></h1>
+                        <p class="header__paragraph">
+                            Hello, I'm Jared Morgan. I'm an avid photographer who loves to travel and capture
+                            the beauty I'm blessed to witness with my camera.
+                        </p>
+                        <button type="button" class="header__button">View my work</button>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <main>
+            <div>
+                <ul class="conteiner__images">
+                    <li><img src="./images/image-box-1.jpg" alt="travel" /></li>
+                    <li><img src="./images/image-box-2.jpg" alt="travel" /></li>
+                    <li><img src="./images/image-box-3.jpg" alt="travel" /></li>
+                    <li><img src="./images/image-box-4.jpg" alt="travel" /></li>
+                    <li><img src="./images/image-box-5.jpg" alt="travel" /></li>
+                    <li><img src="./images/image-box-6.jpg" alt="travel" /></li>
+                    <li><img src="./images/image-box-7.jpg" alt="travel" /></li>
+                    <li><img src="./images/image-box-8.jpg" alt="travel" /></li>
+                    <li><img src="./images/image-box-9.jpg" alt="travel" /></li>
+                </ul>
+            </div>
+
+            <div class="conteiner__quote-wrapper">
+                <div class="conteiner__quote-wrapper-item-list">
+                    <blockquote class="quoye__text">
+                        Jared takes incredible & stunning photos. Im always in awe of his travels, yet feel
+                        transported to his location with every snapshot he publishes.
+                    </blockquote>
+                    <span class="autor">— Sandy Cohen</span>
+                </div>
+            </div>
+
+            <article class="article__wrapper">
+                <h2 class="header__title header__title--margin-top ">About me</h2>
+                <p class="paragraph">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et turpis in ex
+                    pellentesque tempus a et risus. Ut at mollis ipsum, sit amet imperdiet libero. Phasellus
+                    viverra neque sit amet sem maximus, a egestas mi convallis. Mauris felis elit, iaculis non
+                    magna nec, placerat ullamcorper nunc. Etiam rutrum urna erat, eget vehicula nibh finibus
+                    laoreet. Fusce accumsan ligula et arcu faucibus, eu aliquam justo congue. Nullam at nisi
+                    nec arcu posuere tristique eget id orci. Vestibulum tincidunt et neque sit amet lacinia.
+                </p>
+                <p class="paragraph">
+                    Nunc eget arcu quis mauris dapibus commodo. Maecenas nec eros sed leo aliquam gravida eget
+                    vel nisl. Phasellus justo dolor, eleifend a velit eu, pretium ultricies mi. Curabitur ut
+                    ornare lorem. Pellentesque nec dui ultricies, sodales orci vitae, placerat purus. Sed at
+                    odio ipsum. Duis vitae velit at lorem varius iaculis eget at diam. Nulla non pharetra
+                    nibh.
+                </p>
+                <p class="paragraph">
+                    Sed vitae tincidunt nulla. Vestibulum malesuada augue a est molestie auctor eget ac velit.
+                    Cras quam justo, semper ac orci non, ornare commodo odio. Vestibulum odio dolor,
+                    sollicitudin et lorem nec, dictum vulputate neque. In vel ipsum iaculis felis dapibus
+                    gravida. Morbi condimentum, ligula ac egestas fermentum, mauris neque auctor diam, eu
+                    semper ante dolor nec metus. Nam eget tincidunt leo. Duis blandit varius massa ut
+                    ultricies. Aenean est neque, elementum ut pulvinar sit amet, accumsan sit amet lacus.
+                    Suspendisse sed suscipit turpis. Etiam vestibulum sem sit amet sollicitudin pulvinar.
+                    Mauris libero lorem, fringilla et tortor quis, gravida aliquam lectus. Nunc aliquet
+                    sodales mauris quis eleifend. Integer aliquam est in quam pellentesque tristique. Aenean
+                    lobortis pharetra est sit amet luctus.
+                </p>
+            </article>
+
+            <footer>
+                <section class="contact__me__wrapper">
+                    <div class="contact__me__wrapper-items">
+                        <h2 class="header__title">Contact Me</h2>
+                        <p class="paragraph__footer">
+                            Are you looking for a skilled photographer to capture your family, special day, or
+                            make professional headshots? Then look no further.
+                        </p>
+                        <form action="form" class="form">
+                            <input
+                                type="text"
+                                id="fname"
+                                name="fname"
+                                value="Full name"
+                                class="input__style"
+                            />
+                            <input
+                                type="email"
+                                name="email"
+                                id="email"
+                                value="Email Address"
+                                class="input__style"
+                            />
+                            <input type="tel" name="tel" id="tel" value="Phone number" class="input__style" />
+                            <input type="date" id="date" name="date" value="" class="input__style" />
+                            <textarea
+                                name="message"
+                                id="message"
+                                cols="10"
+                                rows="3"
+                                class="input__style input__style-textarea"
+                            >Something</textarea
+                            >
+                        </form>
+                        <button type="button" class="button__footer">Send Request</button>
+                    </div>
+                </section>
+                <div class="footer__paragraph-wrapper">
+                    <div class="footer__paragraph"><p>Copyright © 2017. Jared Morgan. All Rights Reserved.</p></div>
+                </div>
+            </footer>
+        </main>
+    </body>
+</html>
